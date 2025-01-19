@@ -1,0 +1,39 @@
+/* Retro Theme */
+body.retro {
+  background-color: #2e3b4e;
+  color: #ffd700;
+}
+
+body.retro main {
+  background-color: #2a2f3a;
+  color: #fff;
+}
+
+body.retro pre, body.retro code {
+  background-color: #2b2f3a;
+  color: #ffd700;
+}
+
+body.retro a {
+  color: #ff9f00;
+}
+
+body.retro a:hover {
+  color: #e87c00;
+  text-decoration: underline;
+}
+
+body.retro footer {
+  background-color: #333;
+}
+
+.retro tr:nth-child(even) {
+  background-color: #2e3b4e;
+}
+
+.retro tr:hover {
+  background-color: #294961;
+}
+.retro th {
+  background-color: #2b2f3a;
+}
