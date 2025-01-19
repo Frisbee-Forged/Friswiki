@@ -1,0 +1,39 @@
+/* Dark Theme */
+body.dark {
+  background-color: #181818;
+  color: #fff;
+}
+
+body.dark main {
+  background-color: #222;
+  color: #ddd;
+}
+
+body.dark pre, body.dark code {
+  background-color: #272822;
+  color: #F8F8F2;
+}
+
+body.dark footer {
+  background-color: #333;
+}
+
+body.dark a {
+  color: #66CCFF;
+}
+
+body.dark a:hover {
+  color: #33aaff;
+  text-decoration: underline;
+}
+
+.dark tr:nth-child(even) {
+  background-color: #2E2D2D;
+}
+
+.dark tr:hover {
+  background-color: #181818;
+}
+.dark th {
+  background-color: #272822;
+}
