@@ -1,0 +1,4 @@
+[
+   { "title": "Adding Pages", "file": "/data/pages/pagestutorial.json", "keywords": ["tutorial", "guide", "adding", "add", "pages", "page"] },
+   { "title": "Adding Page Cards", "file": "/data/pages/pagecardtutorial.json  ", "keywords": ["tutorial", "guide", "adding", "add", "pagecard", "page", "container"] }
+]
