@@ -1,0 +1,42 @@
+/* Light Theme */
+body.light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+body.light main {
+  background-color: #fff;
+}
+
+body.light pre, body.light code {
+  background-color: #F1F1F1;
+  color: #333;
+}
+
+body.light a {
+  color: #ff9f00;
+}
+
+body.light a:hover {
+  color: #e87c00;
+  text-decoration: underline;
+}
+
+body.light footer {
+  background-color: #333;
+}
+
+.textimage {
+  background-color: black;
+}
+
+.light tr:nth-child(even) {
+  background-color: #F9F9F9;
+}
+
+.light tr:hover {
+  background-color: #F1F1F1;
+}
+.light th {
+  background-color: #F4F4F4;
+}
