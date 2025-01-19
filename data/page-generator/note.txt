@@ -1,0 +1,1 @@
+Currently, there's only one single page generator, the markdown one for this release, i was planning to have another one the visual page generator but i got lazy when i reached like the half point at creating it, these are based on frisbee for styling and some scripts
