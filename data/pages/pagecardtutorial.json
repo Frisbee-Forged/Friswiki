@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "title": "Making Page Cards"
+  },
+  "content": {
+    "header": "How To Make Page Cards In Your wiki's Home Page:",
+    "body": "<p>To Make a Page Cards For your pages, It's pretty simple actually now that I think about it.\nanyways so you will have to open the file located here :\n<code>Yourwiki/index.html</code></p>\n<p>And inside the html file you should be able to find after you scroll for a bit This :</p>\n<pre><code class=\"language-&lt;div\">      &lt;aside onclick=&quot;openPage('template.html?page=data/pages/pagestutorial.json')&quot; class=&quot;pagecard short&quot;&gt;\n        &lt;h2&gt;Adding Pages&lt;/h2&gt;\n        &lt;p&gt;Shows how to add/Make pages into FrisWiki Through Code Editors or the page generator&lt;/p&gt;\n        &lt;h4 style=&quot;color: grey;&quot;&gt;JSON Release V1 ONLY!!!&lt;/h4&gt;\n      &lt;/aside&gt;\n    &lt;/div&gt; \n</code></pre>\n<p>Now we are only interested in the aside element, to add a new page card you must add a <code>&lt;aside&gt; </code> element and add the .pagecard class to it while making sure it's the child of the cardcontainer div</p>\n<p><strong>optionally, you can also add .short or .wide for a shorter or wider card respectively</strong></p>\n<p>After that you can add a <code>openPage('template.html?page=data/pages/yourpage.json')</code>\nSo it opens your page when it's clicked!</p>\n<p>Now you can edit what you want to be in Pagecard, you can checkout the style.css sheet for styles if you want to use some classes or elements. Have fun!</p>\n"
+  }
+}
