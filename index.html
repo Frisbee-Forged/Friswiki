@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friswiki</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/light.css">
+  <link rel="stylesheet" href="styles/dark.css">
+  <link rel="stylesheet" href="styles/retro.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <h1>FRISWIKI</h1>
+    <input type="text" id="search-bar" placeholder="Search..." />
+    <ul id="search-results"></ul>
+  </header>
+  <main>
+    <aside id="navigation">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="https://github.com/Frisbee-Forged">Frisbee Forged</a></li>
+        <li><a onclick="loadRandomPage()" href="#">Random Page</a></li>
+      </ul>
+    </aside>
+
+    <div class="card-container">
+      <aside onclick="openPage('template.html?page=data/pages/pagestutorial.json')" class="pagecard wide">
+        <h2>Adding Pages</h2>
+        <p>Shows how to add/Make pages into FrisWiki Through Code Editors or the page generator</p>
+        <h4 style="color: grey;">JSON Release V1 ONLY!!!</h4>
+      </aside>
+      <aside onclick="openPage('template.html?page=data/pages/pagecardtutorial.json')" class="pagecard short">
+        <h2>Adding PageCards</h2>
+        <p>Shows how to pagecards into FrisWiki's homepage </p>
+      </aside>
+    </div>
+  </main>         
+
+<!--  <script src="https://cdn.jsdelivr.net/npm/marked@4.0.10/lib/marked.min.js"></script> -->
+  <script src="scripts/search.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
