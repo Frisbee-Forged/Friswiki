@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wiki Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="styles/light.css">
+  <link rel="stylesheet" href="styles/dark.css">
+  <link rel="stylesheet" href="styles/retro.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<body>
+  <header>
+    <div id="logo">
+      <h1>FRISWIKI</h1>
+    </div>
+    <!-- Breadcrumbs -->
+    <div id="breadcrumbs"></div>
+    
+    <!-- Theme Selector -->
+    <select id="theme-selector" onchange="changeTheme(this.value)">
+    </select>
+    <button id="download" onclick="pageDownload()">Download Page</button>
+  </header>
+
+  <main>
+    <!-- Content will be rendered here -->
+     <article>
+    <div id="content"></div>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Wiki</p>
+  </footer>
+
+  <!-- Scripts -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/marked@4.0.10/lib/marked.min.js"></script> -->
+  <script src="scripts/themes.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
